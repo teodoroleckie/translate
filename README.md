@@ -104,6 +104,14 @@ In this case, you just need to create a file that has the following name:
 
 In that case the following calls will have the same result and will load the translations from the same file.
 ```php
+use Tleckie\Translate\Loader\ArrayLoader;
+use Tleckie\Translate\Translator;
+
+$trans = new Translator(
+    new ArrayLoader('./translations/','php'),
+    'es_ES'
+);
+
 $trans->trans('hello',['John'],null, 'en_GB');
 $trans->trans('hello',['John'],null, 'en_US');
 ```
