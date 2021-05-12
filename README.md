@@ -108,5 +108,8 @@ $trans->trans('hello',['John'],null, 'en_GB');
 $trans->trans('hello',['John'],null, 'en_US');
 ```
 
+You can also implement your own loader to connect to your preferred data source. 
+You simply have to implement the LoaderInterface interface.
+
 
 That's all! I hope this helps you ;)
