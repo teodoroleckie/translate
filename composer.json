@@ -1,0 +1,64 @@
+{
+  "name": "tleckie/translate",
+  "license": "MIT",
+  "description": "PHP translator",
+  "type": "library",
+  "homepage": "https://github.com/teodoroleckie/translate",
+  "authors": [
+    {
+      "name": "Teodoro Leckie Westberg",
+      "email": "teodoroleckie@gmail.com"
+    }
+  ],
+  "keywords": [
+    "tleckie",
+    "translator",
+    "translate",
+    "translated",
+    "php-translate",
+    "php",
+    "php-8"
+  ],
+  "autoload": {
+    "psr-4": {
+      "Tleckie\\Translate\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tleckie\\Translate\\Tests\\": "tests/"
+    }
+  },
+  "provide": {
+  },
+  "require": {
+    "php": "^8"
+  },
+  "require-dev": {
+    "infection/infection": "^0.21.5",
+    "phpunit/phpunit": "^9.5",
+    "friendsofphp/php-cs-fixer": "v3.0.0-beta.2",
+    "mikey179/vfsstream": "^1.6",
+    "squizlabs/php_codesniffer": "^3.6"
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "vendor-dir": "vendor",
+    "bin-dir": "bin"
+  },
+  "scripts": {
+    "fix-src": "./bin/php-cs-fixer fix src/ ",
+    "fix-tests": "./bin/php-cs-fixer fix tests/",
+    "tests": "./bin/phpunit ./tests/",
+    "phpcs-src": "./bin/phpcbf ./src/",
+    "phpcs-tests": "./bin/phpcbf ./src/",
+    "infection": "infection",
+    "check": [
+      "@fix-src",
+      "@fix-tests",
+      "@tests",
+      "@infection"
+    ]
+  }
+}
