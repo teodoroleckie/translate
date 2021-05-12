@@ -1,10 +1,10 @@
 ### Fast, powerful, scalable and customizable php translator library
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/tleckie/translate.svg?style=flat-square)](https://packagist.org/packages/tleckie/translate)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/teodoroleckie/translate/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/teodoroleckie/translate/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/teodoroleckie/translate/badges/build.png?b=master)](https://scrutinizer-ci.com/g/teodoroleckie/translate/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/teodoroleckie/translate/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/teodoroleckie/translate/?branch=main)
+[![Build Status](https://scrutinizer-ci.com/g/teodoroleckie/translate/badges/build.png?b=main)](https://scrutinizer-ci.com/g/teodoroleckie/translate/build-status/main)
+[![Code Intelligence Status](https://scrutinizer-ci.com/g/teodoroleckie/translate/badges/code-intelligence.svg?b=main)](https://scrutinizer-ci.com/code-intelligence)
 [![Total Downloads](https://img.shields.io/packagist/dt/tleckie/translate.svg?style=flat-square)](https://packagist.org/packages/tleckie/translate)
-[![Code Intelligence Status](https://scrutinizer-ci.com/g/teodoroleckie/translate/badges/code-intelligence.svg?b=master)](https://scrutinizer-ci.com/code-intelligence)
 
 You can install the package via composer:
 
