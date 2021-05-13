@@ -36,7 +36,11 @@ Your translations file should look like this:
 <?php
 
 return [
-  'hello' => "Hola! Bienvenido a mi sitio web!"
+  'hello' => "Hola! Bienvenido a mi sitio web!",
+  'other' => "Other value :)",
+  .
+  .
+  .
 ];
 ```
 
