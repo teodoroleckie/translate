@@ -29,6 +29,8 @@ $trans = new Translator(
 
 $trans->trans('hello');
 
+$trans->trans('other.value');
+
 ```
 Your translations file should look like this:
 
@@ -37,7 +39,7 @@ Your translations file should look like this:
 
 return [
   'hello' => "Hola! Bienvenido a mi sitio web!",
-  'other' => "Other value :)",
+  'other.value' => "Otro valor",
   .
   .
   .
