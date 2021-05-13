@@ -1,7 +1,7 @@
 {
   "name": "tleckie/translate",
   "license": "MIT",
-  "description": "PHP translator",
+  "description": "Fast, powerful, scalable and customizable php translator library",
   "type": "library",
   "homepage": "https://github.com/teodoroleckie/translate",
   "authors": [
