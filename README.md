@@ -19,6 +19,8 @@ it must also indicate the extension of the translation files.
 
 
 ```php
+<?php
+
 use Tleckie\Translate\Loader\ArrayLoader;
 use Tleckie\Translate\Translator;
 
@@ -59,6 +61,8 @@ If you want to add values to your translated text you must indicate it with "%s"
 Note that the number of arguments must match the number of "%s".
 
 ```php
+<?php
+
 use Tleckie\Translate\Loader\ArrayLoader;
 use Tleckie\Translate\Translator;
 
@@ -85,6 +89,8 @@ Even if you configure your translator to load a specific language,
 you can also change the language at any time if you need.
 
 ```php
+<?php
+
 use Tleckie\Translate\Loader\ArrayLoader;
 use Tleckie\Translate\Translator;
 
@@ -109,6 +115,8 @@ In this case, you just need to create a file that has the following name:
 
 In that case the following calls will have the same result and will load the translations from the same file.
 ```php
+<?php
+
 use Tleckie\Translate\Loader\ArrayLoader;
 use Tleckie\Translate\Translator;
 
