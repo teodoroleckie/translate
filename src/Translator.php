@@ -96,9 +96,10 @@ class Translator implements TranslatorInterface
     ): string {
         $locale = $locale ?? $this->locale;
 
-        $translated = $this->bookmark->getCatalogue($locale)->getByKey($keyToTranslate);
-
-        $replaced = sprintf($translated, ...$arguments);
+        $replaced = sprintf(
+            $this->bookmark->getCatalogue($locale)->getByKey($keyToTranslate),
+            ...$arguments
+        );
 
         if (empty($replaced)) {
             return $fallback;
