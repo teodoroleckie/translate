@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tleckie\Translate\Catalogue;
 
 /**
@@ -16,5 +18,5 @@ interface CatalogueInterface
      *
      * @return string|null
      */
-    public function getByKey(string $key): ?string;
+    public function getByKey(string $key): mixed;
 }

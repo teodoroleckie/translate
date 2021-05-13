@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tleckie\Translate;
 
 use ArrayIterator;
@@ -17,7 +19,7 @@ class Catalogue extends ArrayIterator implements CatalogueInterface
     /**
      * @inheritdoc
      */
-    public function getByKey(string $key): ?string
+    public function getByKey(string $key): mixed
     {
         return $this[$key] ?? null;
     }

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tleckie\Translate\Bookmark;
 
 use InvalidArgumentException;
